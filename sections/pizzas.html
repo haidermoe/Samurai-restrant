@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+
+        header {
+            background-color: #343a40;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        main {
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        section {
+            background-color: #fff;
+            margin: 10px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            flex: 0 1 calc(50% - 20px);
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        h2 {
+            margin-top: 0;
+            color: #343a40;
+        }
+
+        p {
+            color: #666;
+        }
+
+        .price {
+            color: #ff5722; /* Vibrant color */
+            font-weight: bold;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #343a40;
+            color: #fff;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Pizzas</h1>
+    </header>
+    
+    <main>
+        <section id="margherita">
+            <h2>Margherita - <span class="price">$7.60</span></h2>
+            <p>Mozzarella, Grana Padano parmesan, and basil, with Samurai authentic pizza sauce.</p>
+        </section>
+        <section id="classic-pepperoni">
+            <h2>Classic Pepperoni - <span class="price">$9.60</span></h2>
+            <p>Italian beef pepperoni, mozzarella, basil, and oregano, with Samurai authentic pizza sauce.</p>
+        </section>
+        <section id="italia-classic">
+            <h2>Italia Classic - <span class="price">$11.35</span></h2>
+            <p>Smoked turkey, mozzarella, fresh mushrooms, basil, olives, and oregano, with Samurai authentic pizza sauce.</p>
+        </section>
+        <section id="tartufo">
+            <h2>Tartufo - <span class="price">$10.75</span></h2>
+            <p>Truffle mushroom cream, mozzarella, parmesan, mushrooms, and rocca.</p>
+        </section>
+        <section id="premo-pollo">
+            <h2>Premo Pollo - <span class="price">$9.60</span></h2>
+            <p>Pulled chicken breast, pepper marmalade, roasted onion and garlic served along with our authentic tomato, sprinkled with a three-cheese mix and oregano mix.</p>
+        </section>
+        
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Samurai Restaurant. All rights reserved.</p>
+    </footer>
+</body>
+</html>

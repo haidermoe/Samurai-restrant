@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beverages</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+
+        header {
+            background-color: #343a40;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        main {
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        section {
+            background-color: #fff;
+            margin: 10px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            flex: 0 1 calc(50% - 20px);
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        h2 {
+            margin-top: 0;
+            color: #343a40;
+        }
+
+        p {
+            color: #666;
+        }
+
+        ul {
+            padding-left: 20px;
+            list-style: none;
+        }
+
+        .price {
+            color: #ff5722; /* Vibrant color */
+            font-weight: bold;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #343a40;
+            color: #fff;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Beverages</h1>
+    </header>
+    
+    <main>
+        <section id="fresh-lemonade">
+            <h2>Fresh Lemonade</h2>
+            <ul>
+                <li>Original - <span class="price">$4.00</span></li>
+                <li>Minted - <span class="price">$4.25</span></li>
+            </ul>
+        </section>
+        <section id="fresh-juices">
+            <h2>Fresh Juices - <span class="price">$4.50</span></h2>
+            <p>Choose from orange, carrot, apple, or pomegranate.</p>
+        </section>
+        <section id="sweet-roots">
+            <h2>Sweet Roots - <span class="price">$5.00</span></h2>
+            <p>Fresh pomegranate, beetroot, and orange juice.</p>
+        </section>
+        <section id="ginger-mojito">
+            <h2>Ginger Mojito - <span class="price">$5.25</span></h2>
+            <p>Mojito mix, fresh mint, lemon wheel, lemon juice, and ginger ale.</p>
+        </section>
+        <section id="pomegranate-mojito">
+            <h2>Pomegranate Mojito - <span class="price">$5.75</span></h2>
+            <p>Fresh pomegranate, mojito mix, lemon wheel, lemon juice, fresh mint, and soda.</p>
+        </section>
+        <section id="strawberry-mojito">
+            <h2>Strawberry Mojito - <span class="price">$5.75</span></h2>
+            <p>Strawberry puree, lemon wheel, lemon juice, fresh mint, and soda.</p>
+        </section>
+        <section id="still-sparkling">
+            <h2>Still & Sparkling - <span class="price">$3.00</span></h2>
+        </section>
+        <section id="mineral-water">
+            <h2>Mineral Water</h2>
+            <ul>
+                <li>Large - <span class="price">$2.50</span></li>
+                <li>Small - <span class="price">$1.50</span></li>
+            </ul>
+        </section>
+        
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Samurai Restaurant. All rights reserved.</p>
+    </footer>
+</body>
+</html>
